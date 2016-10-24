@@ -24,7 +24,7 @@ public class Propiedades {
         Properties prop = new Properties();
         InputStream input = null;
         try {
-            input = new FileInputStream("/home/fase1/Apps/apache-tomcat-8.0.27/conf/ConexionDB.properties");
+            input = new FileInputStream("/home/phd2014/tomcat9/conf/ConexionDB.properties");
             // Cargo el archivo de Propiedades
             prop.load(input);
             // Se obtienen las propiedades de la base de datos
